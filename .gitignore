@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets
+secrets/*.json
+secrets/**/*.json
+token.pickle
+.env
+# But keep .keep files
+!secrets/.keep
+
+# Data
+data/*.db
+data/*.json
+data/*.sqlite
+# But keep .keep files
+!data/.keep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (internal)
+genai-readme.md
+human-readme.md
+.cursorrules
+QUICKSTART.md
+START.md
+TEST_CHECKLIST.md
+check_setup.py
+
